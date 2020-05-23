@@ -1,0 +1,172 @@
+/***********TAG SELECTORS***********/
+
+/* #F4F4F4 #B0EACD #89FAD0 #C2E8CE #DEE3E2 #E57B5E <-- Some good colors */
+
+body {
+	margin: 0;
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+hr {
+	border-style: none;
+	border-top-style: dotted;
+	border-width: 5px;
+	width: 3%;
+}
+
+h1 {
+	font-family: 'Sacramento', cursive;
+	font-size: 4em;
+	margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+h2 {
+	font-family: 'Work Sans', Sans;
+	font-size: 2rem;
+}
+
+h3 {
+	font-family: 'Work Sans', Sans;
+}
+
+p {
+	font-family: 'Work Sans', Sans;
+	color: #212121;
+}
+
+/*************SECTIONS*************/
+
+.top-container {
+	background-color: #73C9E4;
+	color: #FFFFFF;
+	padding: 20px;
+	padding-top: 60px;
+	padding-bottom: 70px;
+}
+
+.about {
+	background-color: #DEE3E2;
+	color: #40514E;
+	height: 500px;
+	padding: 20px;
+	padding-top: 100px;
+	padding-bottom: 80px;
+}
+
+.middle-container-skills {
+	background-color: #E57B5E;
+	color: #FFFFFF;
+	padding: 20px;
+	padding-top: 60px;
+	padding-bottom: 80px;
+}
+
+.contact-me {
+	color: #40514E;
+	padding: 20px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 50%;
+	margin: 0px auto;
+	line-height: 1.5;
+}
+
+/**************CLASSES**************/
+
+.anchor:link, .footer-link:link {
+	text-decoration: none;
+	color: #40514E;
+	transition: all 0.5s ease-in;
+}
+
+.anchor:visited, .footer-link:visited {
+	color: #40514E;
+	text-decoration: none;
+}
+
+.anchor:hover, .footer-link:hover {
+	color: black;
+	text-decoration: none;
+}
+
+.anchor:active, .footer-link:active {
+	color: #40415E;
+	text-decoration: none;
+}
+
+.button {
+	text-decoration: none;
+	color: rgb(0,91,209);
+	font-size: 20px;
+	padding: 10px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	-ms-border-radius: 12px;
+	border-radius: 12px;
+	background-color: rgb(0, 167, 255);
+}
+
+.copyright-bar {
+	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+	font-size: 16px;
+	background-color: #BE79DF;
+	padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px 0px 0px;
+}
+
+.footer-link {
+	padding-left: 20px;
+	padding-right: 20px; 
+}
+
+.h2myskills {
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+.html-img {
+	width: 150px;
+	height: 150px;
+	float: left;
+	position: relative;
+	top: 20px;
+	margin-right: 30px;
+}
+
+.intro {
+	width: 60%;
+	margin: 0px auto;
+	line-height: 2;
+	color: #40514E;
+}
+
+.name {
+	font-size: 20px;
+	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+	color: #FFFFFF;
+	padding-bottom: 20px;
+}
+
+.python-img {
+	width: 150px;
+	height: 150px;
+	float: right;
+	position: relative;
+	top: 20px;
+	margin-left: 30px;
+}
+
+.skill-p {
+	color: #FBE9E7;
+	line-height: 1.5;
+}
+
+.skill-row {
+	width: 50%;
+	margin: 0px auto;
+	text-align: left;
+	padding-bottom: 20px;
+}
